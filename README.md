@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # MindMate
 AI-Powered Mental Wellness Journal
 =======
@@ -25,8 +25,7 @@ Mindmate is a full-stack mental wellness application designed to help users trac
 - Track journaling streaks and frequency.
 - Gain insight into emotional patterns with real-time charts.
 
-### 🌐 Live Demo
-https://mindmate-journal.netlify.app/
+
 
 ---
 
@@ -39,4 +38,4 @@ https://mindmate-journal.netlify.app/
 ---
 
 
->>>>>>> master
+
