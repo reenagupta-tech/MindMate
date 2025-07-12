@@ -1,46 +1,99 @@
-# 🧠 MindMate — AI-Powered Mental Wellness Journal
+# 🧠 MindMate — Your Personal Mental Health Journal & AI Companion
 
-Your intelligent mental health companion for journaling, mood tracking, and personalized support.
+> Your intelligent mental health companion for journaling, mood tracking, and personalized support.
+
+![React](https://img.shields.io/badge/frontend-react-blue?logo=react)
+![Spring Boot](https://img.shields.io/badge/backend-springboot-green?logo=spring)
+![MongoDB](https://img.shields.io/badge/database-mongodb-brightgreen?logo=mongodb)
+![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-red?logo=google)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
 ## 📌 Overview
 
-**MindMate** is a full-stack AI-powered mental wellness platform that helps users understand and manage their emotional well-being. It combines secure digital journaling, mood-based analytics, and a smart AI chatbot (powered by Google Gemini) that adapts to users' mental states.
+MindMate is a full-stack mental wellness application designed to help users track their emotional health through journaling, gain insights from their mood patterns, and interact with a context-aware AI companion.
 
-Designed for privacy, usability, and mental health awareness, MindMate provides real-time insights, streak tracking, and emotionally intelligent conversations, making it a modern self-care assistant.
 
----
 
-## ✨ Key Features
-
-### 📝 Personal Journal (CRUD)
-- Create, edit, view, and delete journal entries.
-- Tag entries by **mood**, **keywords**, or **date**.
-- All entries are securely stored and accessible to the user only.
-
-### 🤖 AI-Powered Chat Companion
-- Integrates with **Google Gemini API** for natural language conversation.
-- Reads recent journal entries to offer **context-aware suggestions**.
-- Provides supportive prompts, emotional check-ins, and coping advice.
-
-### 📊 Mood & Wellness Analytics
-- Interactive dashboard with:
-  - **Mood trends**
-  - **Journaling frequency**
-  - **Emotional pattern recognition**
-- Tracks streaks to encourage regular reflection.
+**📖 Repository:** [https://github.com/reenagupta-tech/MindMate](https://github.com/reenagupta-tech/MindMate)
 
 ---
 
-## 🧱 Tech Stack
+## ✨ Features
 
-| Frontend         | Backend        | Database        | AI Integration         |
-|------------------|----------------|------------------|-------------------------|
-| React + Vite     | Spring Boot    | MongoDB Atlas    | Google Gemini API       |
+### 📝 Journal Management (CRUD)
+- Create, view, update, and delete personal journal entries
+- Filter entries by mood, date, or keywords
+- Private and secure storage of mental health data
+- Mood tracking with visual indicators
+
+### 🤖 Context-Aware AI Chatbot
+- Integrated Google Gemini API
+- Provides intelligent, personalized conversations based on recent journal history
+- Offers mental health advice and conversation prompts tailored to user mood
+- Real-time chat interface with message history
+
+### 📊 Analytics Dashboard
+- Visualize mood trends over time
+- Track journaling streaks and frequency
+- Gain insight into emotional patterns with real-time charts
+- Weekly mood distribution analysis
+
+### 🔐 User Authentication
+- Secure JWT-based authentication
+- User registration and login
+- Protected routes and session management
+- Token refresh mechanism
 
 ---
 
+## 🛠️ Tech Stack
+
+| Frontend     | Backend        | Database      | AI Integration     |
+|--------------|----------------|----------------|---------------------|
+| React + Vite | Spring Boot    | MongoDB Atlas | Google Gemini API   |
+
+---
+
+
+
+## 🏗️ Project Structure
+
+```
+MindMate/
+├── 📁 MindMate-frontend/          # React + TypeScript Frontend
+│   ├── 📁 src/
+│   │   ├── 📁 Api/                # API configuration and services
+│   │   ├── 📁 components/         # Reusable UI components
+│   │   │   ├── 📁 auth/           # Authentication components
+│   │   │   ├── 📁 chat/           # Chat interface components
+│   │   │   ├── 📁 journal/        # Journal management components
+│   │   │   └── 📁 shared/         # Common UI components
+│   │   ├── 📁 contexts/           # React Context providers
+│   │   ├── 📁 pages/              # Main application pages
+│   │   └── 📄 main.jsx            # Application entry point
+│   ├── 📄 package.json            # Frontend dependencies
+│   ├── 📄 vite.config.ts          # Vite configuration
+│   └── 📄 tailwind.config.js      # Tailwind CSS configuration
+│
+├── 📁 MindMate-backend/           # Spring Boot Backend
+│   ├── 📁 src/main/java/
+│   │   └── 📁 com/example/MindMate/
+│   │       ├── 📁 config/         # Security and configuration
+│   │       │   └── 📁 security/   # JWT and Spring Security
+│   │       ├── 📁 controllers/    # REST API endpoints
+│   │       ├── 📁 DTO/            # Data Transfer Objects
+│   │       ├── 📁 entities/       # Database entities
+│   │       ├── 📁 Repositories/   # Data access layer
+│   │       └── 📁 service/        # Business logic layer
+│   ├── 📁 src/main/resources/
+│   │   └── 📄 application.properties  # Backend configuration
+│   ├── 📄 pom.xml                 # Maven dependencies
+│   └── 📄 Dockerfile              # Container configuration
+│
+└── 📄 README.md                   # Project documentation
+```
 
 
 ## 🛠️ Setup & Installation
@@ -62,6 +115,9 @@ cd MindMate
 spring.data.mongodb.uri=<YOUR_MONGO_URI>
 gemini.api.key=<YOUR_GOOGLE_GEMINI_API_KEY>
 ```
+
+✅ You can also create a file named:  
+`server/src/main/resources/application.properties.example` to show examples.
 
 ---
 
@@ -85,16 +141,28 @@ npm run dev
 ### 🔹 Step 5: Visit the App
 Open your browser at:  
 📍 `http://localhost:5173` (React frontend)  
-📍 Backend runs at `http://localhost:8080` (API)
+📍 `http://localhost:8080` (Spring Boot API backend)
+
+---
+
+
+## 📱 Screenshots
+
+```markdown
+![Journal Interface](screenshots/journal.png)
+![Chatbot](screenshots/chatbot.png)
+![Dashboard](screenshots/analytics.png)
 
 ---
 
 
 
-## 📷 Screenshots (Optional)
-Include screenshots or short GIFs of:
-- Journal interface
-- Chatbot interaction
-- Mood tracking dashboard
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/reenagupta-tech">reenagupta-tech</a></p>
+  <p>If you find this project helpful, please give it a ⭐️!</p>
+</div>
+
+
+
 
 
