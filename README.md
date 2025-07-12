@@ -149,9 +149,15 @@ Open your browser at:
 ## 📱 Screenshots
 
 ![Landing Page](Screenshots/LANDING%20PAGE.jpg)
+
 ![Dashboard](Screenshots/DASHBOARD.jpg)
+
 ![Journal Entry](Screenshots/JOURNAL%20ENTRY.jpg)
+
+![Journal Entries List](Screenshots/JOURNAL%20ENTRIES%20LIST.jpg)
+
 ![Chatbot Interaction](Screenshots/CHATBOT%20INTERACTION.jpg)
+
 ![Mood Analytics](Screenshots/MOOD%20ANALYTICS.jpg)
 
 ---
