@@ -1,6 +1,6 @@
 # 🧠 MindMate — AI-Powered Mental Wellness Journal
 
-> Your intelligent mental health companion for journaling, mood tracking, and personalized support.
+Your intelligent mental health companion for journaling, mood tracking, and personalized support.
 
 ---
 
