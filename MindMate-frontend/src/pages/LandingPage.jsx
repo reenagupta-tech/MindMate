@@ -313,12 +313,12 @@ const LandingPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Avneet Kaur
+          Reena Gupta
         </a>
       </p>
       <div className="flex justify-center md:justify-start space-x-4 text-xl text-blue-400 mt-3">
         <a
-          href="https://www.linkedin.com/in/avneetkaur025"
+          href="https://www.linkedin.com/in/reena-gupta-9bbb972a6"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -326,7 +326,7 @@ const LandingPage = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/AvneetX25"
+          href="https://github.com/reenagupta-tech"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
