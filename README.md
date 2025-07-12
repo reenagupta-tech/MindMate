@@ -1,5 +1,6 @@
 # 🧠 MindMate — Your Personal Mental Health Journal & AI Companion
 
+<<<<<<< HEAD
 [![GitHub stars](https://img.shields.io/github/stars/reenagupta-tech/MindMate?style=social)](https://github.com/reenagupta-tech/MindMate/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/reenagupta-tech/MindMate?style=social)](https://github.com/reenagupta-tech/MindMate/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/reenagupta-tech/MindMate)](https://github.com/reenagupta-tech/MindMate/issues)
@@ -8,6 +9,23 @@
 MindMate is a full-stack mental wellness application designed to help users track their emotional health through journaling, gain insights from their mood patterns, and interact with a context-aware AI companion.
 
 **🌐 Live Demo:** [https://mindmate-journal.netlify.app/](https://mindmate-journal.netlify.app/)
+=======
+> Your intelligent mental health companion for journaling, mood tracking, and personalized support.
+
+![React](https://img.shields.io/badge/frontend-react-blue?logo=react)
+![Spring Boot](https://img.shields.io/badge/backend-springboot-green?logo=spring)
+![MongoDB](https://img.shields.io/badge/database-mongodb-brightgreen?logo=mongodb)
+![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-red?logo=google)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+---
+
+## 📌 Overview
+
+MindMate is a full-stack mental wellness application designed to help users track their emotional health through journaling, gain insights from their mood patterns, and interact with a context-aware AI companion.
+
+
+>>>>>>> 6cfd90907988348a75262744a36b5b7dc0991543
 
 **📖 Repository:** [https://github.com/reenagupta-tech/MindMate](https://github.com/reenagupta-tech/MindMate)
 
@@ -38,6 +56,7 @@ MindMate is a full-stack mental wellness application designed to help users trac
 - User registration and login
 - Protected routes and session management
 - Token refresh mechanism
+<<<<<<< HEAD
 
 ---
 
@@ -77,6 +96,8 @@ MindMate/
 │
 └── 📄 README.md                   # Project documentation
 ```
+=======
+>>>>>>> 6cfd90907988348a75262744a36b5b7dc0991543
 
 ---
 
@@ -185,3 +206,115 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
+<<<<<<< HEAD
+=======
+
+## 🏗️ Project Structure
+
+```
+MindMate/
+├── 📁 MindMate-frontend/          # React + TypeScript Frontend
+│   ├── 📁 src/
+│   │   ├── 📁 Api/                # API configuration and services
+│   │   ├── 📁 components/         # Reusable UI components
+│   │   │   ├── 📁 auth/           # Authentication components
+│   │   │   ├── 📁 chat/           # Chat interface components
+│   │   │   ├── 📁 journal/        # Journal management components
+│   │   │   └── 📁 shared/         # Common UI components
+│   │   ├── 📁 contexts/           # React Context providers
+│   │   ├── 📁 pages/              # Main application pages
+│   │   └── 📄 main.jsx            # Application entry point
+│   ├── 📄 package.json            # Frontend dependencies
+│   ├── 📄 vite.config.ts          # Vite configuration
+│   └── 📄 tailwind.config.js      # Tailwind CSS configuration
+│
+├── 📁 MindMate-backend/           # Spring Boot Backend
+│   ├── 📁 src/main/java/
+│   │   └── 📁 com/example/MindMate/
+│   │       ├── 📁 config/         # Security and configuration
+│   │       │   └── 📁 security/   # JWT and Spring Security
+│   │       ├── 📁 controllers/    # REST API endpoints
+│   │       ├── 📁 DTO/            # Data Transfer Objects
+│   │       ├── 📁 entities/       # Database entities
+│   │       ├── 📁 Repositories/   # Data access layer
+│   │       └── 📁 service/        # Business logic layer
+│   ├── 📁 src/main/resources/
+│   │   └── 📄 application.properties  # Backend configuration
+│   ├── 📄 pom.xml                 # Maven dependencies
+│   └── 📄 Dockerfile              # Container configuration
+│
+└── 📄 README.md                   # Project documentation
+```
+
+
+## 🛠️ Setup & Installation
+
+> Make sure **Node.js**, **Maven**, and **MongoDB Atlas** are set up before proceeding.
+
+### 🔹 Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/MindMate.git
+cd MindMate
+```
+
+---
+
+### 🔹 Step 2: Setup Environment Variables
+
+#### 🧾 Backend (`/server/src/main/resources/application.properties`)
+```properties
+spring.data.mongodb.uri=<YOUR_MONGO_URI>
+gemini.api.key=<YOUR_GOOGLE_GEMINI_API_KEY>
+```
+
+✅ You can also create a file named:  
+`server/src/main/resources/application.properties.example` to show examples.
+
+---
+
+### 🔹 Step 3: Run Backend (Spring Boot)
+```bash
+cd server
+./mvnw spring-boot:run
+```
+
+---
+
+### 🔹 Step 4: Run Frontend (React + Vite)
+```bash
+cd client
+npm install
+npm run dev
+```
+
+---
+
+### 🔹 Step 5: Visit the App
+Open your browser at:  
+📍 `http://localhost:5173` (React frontend)  
+📍 `http://localhost:8080` (Spring Boot API backend)
+
+---
+
+
+## 📱 Screenshots
+
+```markdown
+![Journal Interface](screenshots/journal.png)
+![Chatbot](screenshots/chatbot.png)
+![Dashboard](screenshots/analytics.png)
+
+---
+
+
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/reenagupta-tech">reenagupta-tech</a></p>
+  <p>If you find this project helpful, please give it a ⭐️!</p>
+</div>
+
+
+
+
+
+>>>>>>> 6cfd90907988348a75262744a36b5b7dc0991543
