@@ -166,7 +166,7 @@ Open your browser at:
 
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/reenagupta-tech">reenagupta-tech</a></p>
-  <p>If you find this project helpful, please give it a ⭐️!</p>
+
 </div>
 
 
